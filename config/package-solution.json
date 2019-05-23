@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Azure AD Users web part",
+    "id": "1e4943f0-b096-43bd-aca1-ee98128aba65",
+    "version": "1.1.0.2",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/aad-users-webpart.sppkg"
+  }
+}

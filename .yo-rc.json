@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.8.2",
+    "libraryName": "profile-list-webpart",
+    "libraryId": "23ebd985-2b69-4438-87e8-a285544c8b62",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
